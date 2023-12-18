@@ -13,3 +13,4 @@ weather = (weather_data.json()['weather'][0]['main'])
 temp = round(weather_data.json()['main']['temp'])
 
 print(weather,temp)
+print(weather_data.status_code)
